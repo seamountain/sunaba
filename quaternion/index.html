@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+<script src="https://rawgithub.com/mrdoob/three.js/master/build/three.js"></script>
+<script src='./quaternion.js'></script>
+</head>
+<body onload="start()">
+  <div>クオータニオン: q‾pq</div>
+  <div>軸: (<span id="axis"></span>)</div>
+  <div>回転: <span id="deg"></span>度</div>
+  <div>(ラジアン: <span id="rad"></span>)</div>
+  <!--<div>ラジアン 角度 * 円周率 / 180</div>-->
+  <div>
+    <span style="border-left:solid #ffc7c7 15px">元の座標 p
+      (<span id="p"></span>)
+    </span>
+    <span style="border-left:solid #f85959 15px">回転後の座標 p2
+      (<span id="p2"></span>)
+    </span>
+  </div>
+  <canvas width="300" height="300" id="sampleCanvas" style="background-color: #f0f0f0"></canvas>
+</body>
+</html>
