@@ -112,3 +112,6 @@ function draw_on_orthogonal_coordinate(pos, color) {
       rectSize,
       rectSize);
 }
+
+// JS is difficult..... :-/
+
