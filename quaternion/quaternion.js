@@ -38,10 +38,11 @@ var axis = new THREE.Vector3(0, 1, 0);
 var p2 = new THREE.Quaternion();
 var deg = 0;
 function calc() {
-  //var theta = Math.PI * 0.5;             // -> 4.440892098500626e-16, 0, 2, 0
+  // var theta = Math.PI * 0.5;             // -> 4.440892098500626e-16, 0, 2, 0
   // var theta = 0.5 * 180 * Math.PI / 180; // -> 4.440892098500626e-16, 0, 2, 0
   // var theta = 45 * Math.PI / 180;        // -> 1.414213562373095, 0, 1.4142135623730951, 0
 
+  // SEE ALSO http://jsfiddle.net/68Yra/1/
   var theta = deg * Math.PI / 180;
   var halfTheta = theta * 0.5;
   var q = new THREE.Quaternion(
